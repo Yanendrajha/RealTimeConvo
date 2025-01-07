@@ -21,4 +21,5 @@ public class Room {
     private String id; // Mongo DB : unique Identifier;
     private String roomId; // Provided by client; (So that it can be easily shared)
     private List<Message> messages = new ArrayList<>(); // Used to store the messages;
+
 }
