@@ -1,15 +1,13 @@
-import './App.css'
-import JoinCreateChat from "./component/JoinCreateChat.jsx";
-
+import "./App.css";
+import JoinCreateChat from "./component/JoinCreateChat";
 
 function App() {
-  // const [count, setCount] = useState(0);
 
-  return (
-      <div>
-          <JoinCreateChat />
-      </div>
-     )
+    return (
+        <div>
+            <JoinCreateChat />
+        </div>
+    );
 }
 
-export default App
+export default App;

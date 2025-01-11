@@ -1,13 +1,13 @@
 
 const JoinCreateChat = () => {
     return <div className={"min-h-screen flex items-center justify-center"}>
-        <div className="border p-8 w-full flex flex-col gap-5 max-w-md rounded dark:bg-gray-900 shadow">
+        <div className="p-10 dark:border-gray-700 border w-full flex flex-col gap-5 max-w-md rounded dark:bg-gray-900 shadow">
             <h1 className={"text-2xl font-bold text-center"}>
                 Join Room / Create Room
             </h1>
 
             {/* name Div */}
-            <div className="border p-8 w-full max-w-md rounded">
+            <div className="p-2  w-full max-w-md rounded">
                 <label htmlFor={name} className="block font-medium mb-2 ">
                     Your Name
                 </label>
@@ -20,7 +20,7 @@ const JoinCreateChat = () => {
             </div>
 
             {/* Room Id Div */}
-            <div className="border p-8 w-full max-w-md rounded">
+            <div className="p-2 w-full  max-w-md rounded">
                 <label htmlFor={name} className="block font-medium mb-2">
                     Room ID/New Room ID
                 </label>
